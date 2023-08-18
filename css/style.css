@@ -12,14 +12,16 @@ h1{
 }
 .body-todolist{
     text-align: center;
+   
 }
 .container{
     max-width: 400px;
-    height: 80vh;
+    height: 120vh;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+    background-color: lightcoral;
 }
 .task-list {
     list-style-type: none;

@@ -66,19 +66,19 @@ class LinkedList {
 
 //Usage
 
-const todoList = new LinkedList();
+// const todoList = new LinkedList();
 
-todoList.append('Buy groceries');
-todoList.append('Finish homework');
-todoList.append('Go for a run');
+// todoList.append('Buy groceries');
+// todoList.append('Finish homework');
+// todoList.append('Go for a run');
 
-console.log('Initial Todo List:');
-todoList.print();
+// console.log('Initial Todo List:');
+// todoList.print();
 
-todoList.remove('Finish homework');
+// todoList.remove('Finish homework');
 
-console.log('\nUpdated Todo List:');
-todoList.print();
+// console.log('\nUpdated Todo List:');
+// todoList.print();
 
 //select the input field and the Add Task button
 
