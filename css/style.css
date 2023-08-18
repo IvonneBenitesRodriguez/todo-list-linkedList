@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.body-todolist{
+    text-align: center;
+}
+.container{
+    max-width: 400px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.task-remove{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button#addButton{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+button.remove-button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    padding: 2px;
+    font-size: 0.9rem;
+}
+input#taskInput {
+    margin-bottom: 20px;
+}
+input{
+    margin-right: 20px;
+}
+article.body-todolist{
+    font-size: 1.4rem;
+}
